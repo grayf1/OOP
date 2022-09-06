@@ -36,7 +36,7 @@ public class Student {
     }
  
     public String greeting(){
-        return "Hi, my name is " + firstName + " " + lastName + ". I go to school at"
+        return "Hi, my name is " + firstName + " " + lastName + ". I go to school at "
         + schoolName;
     }
     

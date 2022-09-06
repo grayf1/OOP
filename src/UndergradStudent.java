@@ -43,6 +43,7 @@ public class UndergradStudent extends Student implements Major{
         return creditsRequired - creditsEarned;
     }
 
+    // example of polymorphism 
     @Override
     public String greeting() {
         return super.greeting() + " My major is " + major + ". My GPA is " + gpa 
